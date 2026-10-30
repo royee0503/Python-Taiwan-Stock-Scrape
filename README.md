@@ -49,7 +49,7 @@
 ### 1. 下載專案
 
 ```bash
-git clone https://github.com/你的GitHub帳號/你的專案名稱.git
+git clone https://github.com/royee0503/Python-Taiwan-Stock-Scrape
 ```
 
 ### 2. 進入專案資料夾
@@ -168,7 +168,7 @@ A Windows desktop application developed with Python and PyQt6 for monitoring the
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YourGitHubUsername/YourRepositoryName.git
+git clone https://github.com/royee0503/Python-Taiwan-Stock-Scrape
 ```
 
 ### 2. Navigate to the Project Directory
