@@ -99,7 +99,7 @@ python Python_Stock_Monitor.py
 
 ## 免責聲明
 
-1. 本專案僅供個人學習、研究及程式開發用途。
+1. 本專案的開發目的為個人學習、研究及程式開發。
 2. 股票行情資料來源為臺灣證券交易所基本市況報導網站。
 3. 本程式不提供任何投資建議，也不保證行情資料的即時性或完整性。
 4. 使用者應自行判斷資料的正確性，並承擔使用本程式所產生的相關風險。
@@ -108,9 +108,9 @@ python Python_Stock_Monitor.py
 
 ## License
 
-本專案採用 [MIT License](LICENSE) 授權。
+本專案採用 [AGPL-3.0 License](https://github.com/royee0503/Python-Taiwan-Stock-Scrape?tab=AGPL-3.0-1-ov-file#) 授權。
 
-使用者可以依照 MIT License 的條款使用、修改及散布本專案程式碼。
+使用者可以依照 AGPL-3.0 的條款使用、修改及散布本專案程式碼。若修改後的版本被散布，或透過網路提供服務給他人使用，必須依照相同授權公開對應的原始碼。
 
 ---
 
@@ -218,7 +218,7 @@ This project is under continuous development and maintenance.
 
 ## Disclaimer
 
-1. This project is intended for personal learning, research, and software development purposes only.
+1. This project is developed for personal learning, research, and software development.
 2. Stock market data is sourced from the Taiwan Stock Exchange Basic Market Information website.
 3. This application does not provide investment advice and does not guarantee the accuracy, completeness, or real-time availability of market data.
 4. Users are responsible for evaluating the accuracy of the information and assume all risks associated with using this application.
@@ -227,9 +227,9 @@ This project is under continuous development and maintenance.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [AGPL-3.0 License](https://github.com/royee0503/Python-Taiwan-Stock-Scrape?tab=AGPL-3.0-1-ov-file#).
 
-Users may use, modify, and distribute this project's source code in accordance with the terms of the MIT License.
+You may use, modify, and distribute this project's source code under the terms of AGPL-3.0. If you distribute a modified version, or provide it as a network service to others, you must make the corresponding source code available under the same license.
 
 ---
 
