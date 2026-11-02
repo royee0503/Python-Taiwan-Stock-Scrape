@@ -1,4 +1,4 @@
-# Python 台股爬蟲小程式（Stock Monitor）
+# Python 台股監控小程式
 
 一套使用 Python + PyQt6 開發的 Windows 台股行情監控桌面程式，提供股票行情查詢、股票監控清單管理、價格提醒、Excel 資料更新及背景排程等功能。
 
@@ -114,7 +114,7 @@ python Python_Stock_Monitor.py
 
 ---
 
-# Python Taiwan Stock Market Monitor (Stock Monitor)
+# Python Taiwan Stock Market Monitor
 
 A Windows desktop application developed with Python and PyQt6 for monitoring the Taiwan stock market. It provides stock quote lookup, watchlist management, price alerts, Excel data updates, and scheduled background tasks.
 
