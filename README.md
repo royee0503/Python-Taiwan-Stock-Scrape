@@ -31,7 +31,7 @@
 ## 使用技術
 
 | 技術 | 用途 |
-|---|---|
+|--------|-------------------------------|
 | Python | 主要開發語言 |
 | PyQt6 | Windows 桌面圖形介面 |
 | Requests | HTTP 請求及行情資料取得 |
@@ -120,126 +120,5 @@ python Python_Stock_Monitor.py
 本專案採用 [AGPL-3.0 License](https://github.com/royee0503/Python-Taiwan-Stock-Scrape?tab=AGPL-3.0-1-ov-file#) 授權。
 
 使用者可以依照 AGPL-3.0 的條款使用、修改及散布本專案程式碼。若修改後的版本被散布，或透過網路提供服務給他人使用，必須依照相同授權公開對應的原始碼。
-
----
-
-# Python Taiwan Stock Market Monitor
-
-A Windows desktop application developed with Python and PyQt6 for monitoring the Taiwan stock market. It provides stock quote lookup, watchlist management, price alerts, Excel data updates, and scheduled background tasks.
-
-> This project focuses on practical usage and automation, helping users conveniently access and monitor Taiwan stock market information.
-
-## Features
-
-### Stock Quotes and Monitoring
-
-- **Real-Time Stock Quotes:** Supports stocks listed on the Taiwan Stock Exchange and Taipei Exchange.
-- **Stock Watchlist:** Add, delete, search, and edit monitored stocks.
-- **Price Change Alerts:** Monitor stock price changes based on user-defined conditions.
-- **Price Alerts:** Set custom price thresholds for individual stocks.
-- **Market Closing Notifications:** Receive notifications related to market closing.
-- **Profit and Loss Statistics:** Calculate profit and loss based on user-provided stock information.
-
-### Data Management
-
-- Store user settings and stock watchlists in JSON format.
-- Import Excel and CSV files.
-- Automatically update stock prices in Excel files.
-- Create a separate copy of imported Excel files for data updates, avoiding direct modifications to the original files.
-
-### Automation
-
-- Automatically update stock quotes every 30 minutes.
-- Supports background execution on Windows.
-- Supports automatic startup when Windows boots.
-- Manage background execution through the Windows system tray.
-
-## Technologies Used
-
-| Technology | Purpose |
-|---|---|
-| Python | Main programming language |
-| PyQt6 | Windows desktop graphical user interface |
-| Requests | HTTP requests and stock market data retrieval |
-| JSON | User settings and watchlist storage |
-| OpenPyXL | Reading and updating Excel files |
-| CSV | Tabular data import |
-| Windows API | Windows startup integration and related functions |
-
-## System Requirements
-
-- Operating System: Windows 10 / Windows 11
-- Python: Install the Python version required by this project.
-- Internet Connection: Required to retrieve stock market data.
-
-## Installation and Usage
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/royee0503/Python-Taiwan-Stock-Scrape
-```
-
-### 2. Navigate to the Project Directory
-
-```bash
-cd Python_Stock_Monitor.py
-```
-
-### 3. Install Dependencies
-
-```bash
-pip install PyQt6 requests openpyxl
-```
-
-### 4. Run the Application
-
-```bash
-python Python_Stock_Monitor.py
-```
-
-## Data Safety and File Management
-
-- Store stock watchlists and user settings in JSON format.
-- Create a separate copy of imported Excel files for data updates.
-- Do not directly overwrite the original imported Excel files.
-- Allow users to add, edit, and delete monitored stocks.
-- Regularly back up personal settings and important data.
-
-## Data Source
-
-Stock market data is retrieved from:
-
-- Taiwan Stock Exchange Basic Market Information (TWSE MIS)
-
-Data is retrieved through network requests. Actual update frequency and data availability may vary depending on the data source service, network connection, and market update schedule.
-
-## Future Development
-
-- [ ] Further improve stock quote lookup functionality.
-- [ ] Improve data update stability.
-- [ ] Enhance the user interface.
-- [ ] Expand stock monitoring features.
-- [ ] Add more notification methods.
-- [ ] Continue fixing bugs and improving application performance.
-
-This project is under continuous development and maintenance.
-
-## Disclaimer
-
-1. This project is developed for personal learning, research, and software development.
-2. Stock market data is sourced from the Taiwan Stock Exchange Basic Market Information website.
-3. This application does not provide investment advice and does not guarantee the accuracy, completeness, or real-time availability of market data.
-4. Users are responsible for evaluating the accuracy of the information and assume all risks associated with using this application.
-5. Users must comply with the terms of use of the data source website and must not abuse the data service or send excessive requests.
-6. This project is not officially affiliated with or endorsed by the Taiwan Stock Exchange.
-
-## License
-
-This project is licensed under the [AGPL-3.0 License](https://github.com/royee0503/Python-Taiwan-Stock-Scrape?tab=AGPL-3.0-1-ov-file#).
-
-You may use, modify, and distribute this project's source code under the terms of AGPL-3.0. If you distribute a modified version, or provide it as a network service to others, you must make the corresponding source code available under the same license.
-
----
 
 **Developed with Python.**
