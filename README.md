@@ -70,6 +70,12 @@ pip install PyQt6 requests openpyxl
 python Python_Stock_Monitor.py
 ```
 
+### 5. 打包方式
+
+```bash
+
+```
+
 ## 資料安全與檔案管理
 
 - 使用 JSON 儲存股票監控清單及使用者設定。
