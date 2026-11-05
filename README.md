@@ -38,11 +38,12 @@
 | CSV | 表格資料匯入 |
 | Windows API | Windows 開機自動啟動等功能 |
 
-## 系統需求
+## 開發環境
 
-- 作業系統：Windows 10 / Windows 11
-- Python：請依照專案使用的 Python 版本安裝
-- 網路連線：需要網際網路連線以取得股票行情資料
+* 作業系統：Windows 10 / Windows 11
+* 開發工具：VSCode
+* 使用程式語言：Python 3.12.x
+* 網路連線：需要網際網路連線以取得股票行情資料
 
 ## 安裝與執行
 
