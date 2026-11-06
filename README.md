@@ -75,8 +75,8 @@ python Python_Stock_Monitor.py
 
 ### 5. 打包方式
 
-```bash
-
+```powershell
+python -m PyInstaller --noconfirm --clean --onefile --windowed --name StockMonitor --hidden-import openpyxl Python_Stock_Monitor.py
 ```
 
 ## 資料安全與檔案管理
